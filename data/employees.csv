@@ -1,0 +1,9 @@
+employee_id,first_name,last_name,worker_type,department,job_role,employment_status,termination_date
+E001,Aisha,Johnson,Employee,Clinical,Registered Nurse,Active,
+E002,Marcus,Lee,Employee,Administration,Administrative Support,Active,
+E003,Elena,Rivera,Volunteer,Community Outreach,Volunteer,Active,
+E004,David,Chen,Employee,Finance,Finance Analyst,Terminated,2026-08-15
+E005,Nia,Brown,Volunteer,Community Outreach,Volunteer,Terminated,2026-09-01
+E006,Samuel,Patel,Employee,IT,IT Administrator,Active,
+E007,Grace,Walker,Employee,Clinical,Medical Assistant,Active,
+E008,Jordan,Kim,Contractor,IT,Data Analyst,Terminated,2026-07-31

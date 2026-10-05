@@ -1,1 +1,3 @@
 Risk ID,Risk Statement,Category,Likelihood,Impact,Inherent Risk Rating,Existing Preventive Controls,Existing Detective Controls,Risk Owner,Control Operator,KPI,Target,Remediation Priority,Status
+RR-ID-001 ,Former employees or volunteers retain active accounts after separation,Identity and Access Management,High,9,Critical,"HR-triggered offboarding workflow requiring IT to revoke all access within two hours","Monthly automated audit comparing terminated HR records with active system accounts",HR Director,IT Manager,On-time deprovisioning rate,100% within two hours,Immediate,Open
+

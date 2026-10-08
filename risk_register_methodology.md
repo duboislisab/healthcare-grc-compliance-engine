@@ -16,18 +16,29 @@ Likelihood estimates how probable it is that the risk event will occur during th
 - **Medium:** Could occur; control gaps, changing conditions, or prior events create a realistic possibility.
 - **High:** Likely to occur; known weaknesses, frequent threat activity, or ineffective controls make the event probable.
 
-### Impact Rating
+### Impact Risk Scale
 
-Impact estimates the potential harm if the risk event occurs. Impact is scored on a scale from 1 to 10, considering effects on patient or sensitive information, operations, legal or regulatory obligations, finances, and organizational reputation.
+Impact Risk measures the severity of harm if the risk event occurs, regardless of the likelihood of the event. Scores are assigned based on potential effects on sensitive information, operations, legal and regulatory obligations, finances, and organizational reputation.
+
+- **1–3: Low impact.** Minor, localized disruption with little or no exposure of sensitive information. The issue can be resolved through routine operational processes and has no material compliance, financial, or reputational effect.
+
+- **4–6: Moderate impact.** Noticeable disruption to a team, system, or service; may require management attention, remediation work, or limited reporting. Sensitive information exposure, if any, is limited in scope, and the organization can recover without major interruption.
+
+- **7–8: High impact.** Significant disruption to important operations, meaningful exposure of sensitive information, probable compliance concerns, or substantial financial and reputational harm. The event requires prompt leadership attention and coordinated remediation.
+
+- **9–10: Severe impact.** Major or sustained disruption to critical operations; large-scale or highly sensitive information exposure; serious regulatory, legal, financial, or reputational consequences. The event requires immediate executive escalation, formal incident response, and sustained corrective action.
+
+Impact ratings are based on the defined risk event and its plausible consequences, not solely on the existence of a vulnerability or control deficiency.
 
 ### Inherent Risk Rating
 
-Inherent risk is the level of risk before considering the effect of existing controls. It is determined by evaluating the risk’s likelihood and impact together.
+Inherent Risk Rating represents the overall level of risk before considering the effectiveness of existing controls. It is determined by evaluating the Likelihood Rating together with the Impact Risk score.
 
-- **Low:** Limited likelihood and limited impact.
-- **Medium:** Meaningful likelihood or impact that requires monitoring and assigned ownership.
-- **High:** Significant likelihood or impact that requires timely remediation and management attention.
-- **Critical:** Severe potential harm, major regulatory exposure, or serious disruption requiring immediate escalation and corrective action.
+- **Low:** Low likelihood and limited impact.
+- **Medium:** A realistic likelihood or meaningful impact requiring monitoring and assigned ownership.
+- **High:** A substantial likelihood or significant impact requiring timely remediation and management attention.
+- **Critical:** A likely event with severe impact requiring immediate escalation and corrective action.
+
 
 ## Control Definitions
 
